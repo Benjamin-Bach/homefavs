@@ -24,10 +24,11 @@ function createHtml(fc){
   let main = document.querySelector('main');
   for (i = 0; i < fc.length; i++){
     let newItem = '';
-    newItem += '<br>---';
-    newItem += fc[i].title;
-    newItem += '<br>';
+    newItem += '<a href="';
     newItem += fc[i].url;
+    newItem += '">';
+    newItem += '<p>' + fc[i].title + '</p>';
+    newItem += '</a>';
     main.insertAdjacentHTML('beforeend',newItem);
   }
 }
