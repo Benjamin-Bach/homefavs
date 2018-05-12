@@ -23,12 +23,20 @@ function parseResp(resp){
 function createHtml(fc){
   let main = document.querySelector('main');
   for (i = 0; i < fc.length; i++){
-    let newItem = '';
-    newItem += '<a href="';
-    newItem += fc[i].url;
-    newItem += '">';
-    newItem += '<p>' + fc[i].title + '</p>';
-    newItem += '</a>';
-    main.insertAdjacentHTML('beforeend',newItem);
+    if(fc[i].url){
+      let newItem = '';
+      newItem += '<a href="';
+      newItem += fc[i].url;
+      newItem += '">';
+      newItem += '<div><img src="' + fetchIcon(fc[i].url) + '" /></div>';
+      newItem += '<p>' + fc[i].title + '</p>';
+      newItem += '</a>';
+      main.insertAdjacentHTML('beforeend',newItem);
+    }
   }
+}
+
+function fetchIcon(url){
+  let urlArray = url.split('/');
+  return urlArray[0] + '//' + urlArray[2] + '/favicon.ico';
 }

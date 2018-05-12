@@ -4,7 +4,7 @@
 body{
   font-family: ubuntu,sans;
   margin:0;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1.75rem;
   font-weight: 100;
 }
@@ -15,7 +15,7 @@ h1{
 main{
   display: flex;
   flex-wrap: wrap;
-justify-content: center;
+  justify-content: center;
 }
 a{
   min-width: 320px;
@@ -29,13 +29,25 @@ a{
   box-shadow:0 0 0 rgba(0,0,0,0);
   transition: 0.3s all;
   margin:0.5rem;
+  display: flex;
+  align-items: center
 }
 a:hover{
   background-color: #fff;
   transform:scale(1.05);
   box-shadow:0 0 10px rgba(0,0,0,0.2);
 }
-p{
+a div{
+  padding:2rem 1rem 2rem 1rem;
+  border-right: 1px dashed #ccc;
+  width: calc(32px + 2rem);
+}
+a img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+a p{
   margin:0;
-  padding:2rem;
+  padding:2rem 1rem 2rem 1rem;
 }
