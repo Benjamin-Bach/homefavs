@@ -21,13 +21,12 @@ function parseResp(resp){
       }else{
         siteName = urlArray[4];
       }
-      console.log(siteName);
+
       favsCleaned.push({
         'title' : favs[i],
         'url' : favs[(i+1)],
         'sitename' : siteName
       });
-
 
   }
   createHtml(favsCleaned);
@@ -42,7 +41,7 @@ function createHtml(fc){
       newItem += fc[i].url;
       newItem += '">';
       newItem += '<div class="img"><img id="img_' + i + '" src="icon.svg" /></div>';
-      newItem += '<div class="text"><p class="site-name">' + fc[i].sitename + '</p><p>' + fc[i].title + '</p></div>';
+      newItem += '<div class="text"><p class="site-name">' + fc[i].sitename + '</p><p class="title">' + fc[i].title + '</p></div>';
       newItem += '</a>';
       main.insertAdjacentHTML('beforeend',newItem);
       fetchIcon(i, fc[i].url);
@@ -60,3 +59,26 @@ function fetchIcon(i, url){
   }
   img.src = urlFavicon;
 }
+
+let searchField = document.querySelector('#search');
+searchField.value = '';
+
+function searchIn(){
+  let titles = document.querySelectorAll('.title');
+  // console.log(titles);
+  for(i = 0; i < titles.length; i++){
+    if(titles[i].innerHTML.indexOf(this.value) > 0){
+      titles[i].parentNode.parentNode.style.display = 'inherit';
+    }else{
+      titles[i].parentNode.parentNode.style.display = 'none';
+    }
+  }
+  if(!this.value){
+    let links = document.querySelectorAll('main a');
+    for(i = 0; i < titles.length; i++){
+      links[i].style.display = 'inherit';
+    }
+  }
+}
+
+searchField.addEventListener('keyup', searchIn);
