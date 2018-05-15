@@ -60,14 +60,21 @@ function fetchIcon(i, url){
   img.src = urlFavicon;
 }
 
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 let searchField = document.querySelector('#search');
 searchField.value = '';
-
 function searchIn(){
   let titles = document.querySelectorAll('.title');
   // console.log(titles);
   for(i = 0; i < titles.length; i++){
-    if(titles[i].innerHTML.indexOf(this.value) > 0){
+    let raw = titles[i].innerHTML.indexOf(this.value);
+    let uppercase = titles[i].innerHTML.indexOf(this.value.toUpperCase());
+    let lowercase = titles[i].innerHTML.indexOf(this.value.toLowerCase());
+    let firstLetter = titles[i].innerHTML.indexOf(capitalizeFirstLetter(this.value));
+    if((raw > 0) || (uppercase > 0) || (lowercase > 0) || (firstLetter > 0)){
       titles[i].parentNode.parentNode.style.display = 'inherit';
     }else{
       titles[i].parentNode.parentNode.style.display = 'none';
@@ -82,3 +89,4 @@ function searchIn(){
 }
 
 searchField.addEventListener('keyup', searchIn);
+searchField.focus();

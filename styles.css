@@ -9,9 +9,16 @@ body{
   font-weight: 100;
   background-color: #eee;
 }
-h1{
+section{
   text-align: center;
-  font-weight: 100;
+  padding:0.5rem;
+}
+input{
+  padding: 1rem;
+  font-weight: 900;
+  box-shadow:inset 0 0 5px rgba(0,0,0,0.2);
+  border-radius: 0;
+  border:none;
 }
 main{
   display: flex;
