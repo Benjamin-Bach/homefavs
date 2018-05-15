@@ -23,6 +23,8 @@ function shuffle(array) {
 
 function parseResp(resp){
   let favs = resp.split(/\n/g);
+  document.querySelector('.total').innerHTML = ((favs.length - 1) / 3);
+  document.querySelector('.showed').innerHTML = ((favs.length - 1) / 3);
   let favsCleaned = [];
   for (i = 0; i + 1 < favs.length; i = (i+3) ) {
 
@@ -83,13 +85,15 @@ searchField.value = '';
 function searchIn(){
   let titles = document.querySelectorAll('.title');
   // console.log(titles);
+  let y = 0;
   for(i = 0; i < titles.length; i++){
     let raw = titles[i].innerHTML.indexOf(this.value);
     let uppercase = titles[i].innerHTML.indexOf(this.value.toUpperCase());
     let lowercase = titles[i].innerHTML.indexOf(this.value.toLowerCase());
     let firstLetter = titles[i].innerHTML.indexOf(capitalizeFirstLetter(this.value));
-    if((raw > 0) || (uppercase > 0) || (lowercase > 0) || (firstLetter > 0)){
+    if((raw >= 0) || (uppercase >= 0) || (lowercase >= 0) || (firstLetter >= 0)){
       titles[i].parentNode.parentNode.style.display = 'inherit';
+      y++;
     }else{
       titles[i].parentNode.parentNode.style.display = 'none';
     }
@@ -99,7 +103,9 @@ function searchIn(){
     for(i = 0; i < titles.length; i++){
       links[i].style.display = 'inherit';
     }
+    y = titles.length;
   }
+  document.querySelector('.showed').innerHTML = y;
 }
 
 searchField.addEventListener('keyup', searchIn);
