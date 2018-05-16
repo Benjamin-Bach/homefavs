@@ -82,26 +82,31 @@ function capitalizeFirstLetter(string) {
 
 let searchField = document.querySelector('#search');
 searchField.value = '';
-function searchIn(){
-  let titles = document.querySelectorAll('.title');
-  let y = 0;
-  for(i = 0; i < titles.length; i++){
-    let title = titles[i].innerHTML.toLowerCase();
-    if(title.indexOf(this.value.toLowerCase()) >= 0){
-      titles[i].parentNode.parentNode.style.display = 'inherit';
-      y++;
-    }else{
-      titles[i].parentNode.parentNode.style.display = 'none';
-    }
-  }
-  if(!this.value){
-    let links = document.querySelectorAll('main a');
+function searchIn(e){
+  if(e.key == 'Enter'){
+    window.location = 'https://duckduckgo.com/?q=' + this.value;
+  }else{
+
+    let titles = document.querySelectorAll('.title');
+    let y = 0;
     for(i = 0; i < titles.length; i++){
-      links[i].style.display = 'inherit';
+      let title = titles[i].innerHTML.toLowerCase();
+      if(title.indexOf(this.value.toLowerCase()) >= 0){
+        titles[i].parentNode.parentNode.style.display = 'inherit';
+        y++;
+      }else{
+        titles[i].parentNode.parentNode.style.display = 'none';
+      }
     }
-    y = titles.length;
+    if(!this.value){
+      let links = document.querySelectorAll('main a');
+      for(i = 0; i < titles.length; i++){
+        links[i].style.display = 'inherit';
+      }
+      y = titles.length;
+    }
+    document.querySelector('.showed').innerHTML = y;
   }
-  document.querySelector('.showed').innerHTML = y;
 }
 
 searchField.addEventListener('keyup', searchIn);
