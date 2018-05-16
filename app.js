@@ -84,14 +84,10 @@ let searchField = document.querySelector('#search');
 searchField.value = '';
 function searchIn(){
   let titles = document.querySelectorAll('.title');
-  // console.log(titles);
   let y = 0;
   for(i = 0; i < titles.length; i++){
-    let raw = titles[i].innerHTML.indexOf(this.value);
-    let uppercase = titles[i].innerHTML.indexOf(this.value.toUpperCase());
-    let lowercase = titles[i].innerHTML.indexOf(this.value.toLowerCase());
-    let firstLetter = titles[i].innerHTML.indexOf(capitalizeFirstLetter(this.value));
-    if((raw >= 0) || (uppercase >= 0) || (lowercase >= 0) || (firstLetter >= 0)){
+    let title = titles[i].innerHTML.toLowerCase();
+    if(title.indexOf(this.value.toLowerCase()) >= 0){
       titles[i].parentNode.parentNode.style.display = 'inherit';
       y++;
     }else{
