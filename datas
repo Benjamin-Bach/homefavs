@@ -1,3 +1,102 @@
+Making Movies With amCharts
+https://css-tricks.com/making-movies-with-amcharts/
+
+The Fish Shell
+https://flaviocopes.com/fish-shell/
+
+LEGO Classic Space Adventure – Le jeu vidéo 2D qui vous emmènera sur Mars
+https://korben.info/lego-classic-space-adventure-le-jeu-video-2d-qui-vous-emmenera-sur-mars.html
+
+How Well Do You Know CSS Layout?
+https://css-tricks.com/how-well-do-you-know-css-layout/
+
+CSS doesn’t suck
+https://andy-bell.design/wrote/css-doesnt-suck/
+
+SVG Filters 101
+http://feedproxy.google.com/~r/tympanus/~3/u-tx2d4nO8M/
+
+Introduction to Bash Shell Scripting
+https://flaviocopes.com/bash-scripting/
+
+Découvrez 5 sites avec une navigation et un concept original #212
+http://feedproxy.google.com/~r/blogduwebdesign/articles/~3/V904reMu66w/2773
+
+The Bash shell
+https://flaviocopes.com/bash/
+
+Slice and Dice a Disc with CSS
+https://css-tricks.com/slice-and-dice-a-disc-with-css/
+
+Re: Pleasing Color Palettes
+https://css-tricks.com/re-pleasing-color-palettes/
+
+Piecing Together Approaches for a CSS Masonry Layout
+https://css-tricks.com/piecing-together-approaches-for-a-css-masonry-layout/
+
+Why we need CSS subgrid
+https://dev.to/kenbellows/why-we-need-css-subgrid-53mh
+
+The TypeScript Guide
+https://flaviocopes.com/typescript/
+
+Converting Color Spaces in JavaScript
+https://css-tricks.com/converting-color-spaces-in-javascript/
+
+NES.css, Un Framework CSS inspiré par la NES
+http://feedproxy.google.com/~r/blogduwebdesign/articles/~3/KphJW8xwyNk/2784
+
+How to estimate programming time
+https://flaviocopes.com/estimating/
+
+Accélérer la conception d'un projet Drupal 8
+https://www.flocondetoile.fr/blog/accelerer-la-conception-d-un-projet-drupal-8
+
+New ES2018 Features Every JavaScript Developer Should Know
+https://css-tricks.com/new-es2018-features-every-javascript-developer-should-know/
+
+Toggling Animations On and Off
+https://www.kirupa.com/html5/toggling_animations_on_off.htm
+
+How to discover a bug using git bisect
+https://flaviocopes.com/git-bisect/
+
+Styling a Web Component
+https://css-tricks.com/styling-a-web-component/
+
+How To Learn CSS
+https://www.smashingmagazine.com/2019/01/how-to-learn-css/
+
+Sass Techniques from the Trenches
+https://css-tricks.com/sass-techniques-from-the-trenches/
+
+Tutoriel CSS : Les préprocesseurs CSS
+http://feedproxy.google.com/~r/Grafikart/~3/083vKMPwbvo/preprocesseur-css-1099
+
+Formation SASS : Le préprocesseur SASS
+http://feedproxy.google.com/~r/Grafikart/~3/XymhsnmvGmI/sass-preprocesseur
+
+Animated Mesh Lines
+http://feedproxy.google.com/~r/tympanus/~3/Sd9FEXrcJ-s/
+
+Tutoriel CSS : Les variables CSS
+http://feedproxy.google.com/~r/Grafikart/~3/AlGOYEr1UWI/variables-css-1098
+
+The practical value of semantic HTML
+https://www.brucelawson.co.uk/2018/the-practical-value-of-semantic-html/
+
+The definitive guide to debugging JavaScript
+https://flaviocopes.com/javascript-debugging/
+
+2018 Staff Favorites
+https://css-tricks.com/2018-staff-favorites/
+
+The Elements of UI Engineering
+https://overreacted.io/the-elements-of-ui-engineering/
+
+Destructuring Objects and Arrays in JavaScript
+https://flaviocopes.com/javascript-destructuring/
+
 Multi-Line Inline Gradient
 https://css-tricks.com/multi-line-inline-gradient/
 
@@ -6,6 +105,9 @@ https://github.com/GoogleChromeLabs/quicklink/blob/master/README.md
 
 Enregistrer et rejouez le web avec RRweb.io
 http://feedproxy.google.com/~r/blogduwebdesign/articles/~3/LXPGLxABJfQ/2783
+
+Work with objects and arrays using Rest and Spread
+https://flaviocopes.com/javascript-rest-spread/
 
 Storing and Using the Last Known Route in Vue
 https://css-tricks.com/storing-and-using-the-last-known-route-in-vue/
@@ -18,6 +120,9 @@ https://www.filamentgroup.com/lab/select-css.html
 
 2018, On fait le bilan
 http://feedproxy.google.com/~r/Grafikart/~3/pIWLPkY8XTY/bilan-2018-web
+
+What is Serverless?
+https://flaviocopes.com/serverless/
 
 Décorticage du compteur Linky
 https://korben.info/decorticage-du-compteur-linky.html
@@ -37,8 +142,26 @@ https://www.flocondetoile.fr/blog/des-petits-sites-des-gros-sites-des-micro-site
 Eruda : une console pour analyser les applications web sur mobile
 http://feedproxy.google.com/~r/blogduwebdesign/articles/~3/vcJiEVNYcB0/2779
 
+JSON Web Token (JWT) explained
+https://flaviocopes.com/jwt/
+
+Humaaans, des fragments pour construire vos propres illustrations de personnages
+http://feedproxy.google.com/~r/blogduwebdesign/articles/~3/rPwVXg2GesE/2775
+
+The HTTP/2 protocol
+https://flaviocopes.com/http-2/
+
+call() and apply() in JavaScript
+https://flaviocopes.com/javascript-call-apply/
+
 Fournir un formulaire personnalisé aux entités de Drupal 8
 https://www.flocondetoile.fr/blog/fournir-un-formulaire-personnalise-aux-entites-de-drupal-8
+
+How to sort an array of objects by a property value in JavaScript
+https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/
+
+How to set default parameter values in JavaScript
+https://flaviocopes.com/how-to-set-default-parameter-values-javascript/
 
 Bridging the Gap Between CSS and JavaScript: CSS Modules, PostCSS and the Future of CSS
 https://css-tricks.com/bridging-the-gap-between-css-and-javascript-css-modules-postcss-and-the-future-of-css/
@@ -49,14 +172,23 @@ http://feedproxy.google.com/~r/blogduwebdesign/articles/~3/fsSvVNtIhoM/2770
 Créer un système d'annonces simple avec Drupal 8 (seconde partie)
 https://happyculture.coop/blog/creer-un-systeme-dannonces-simple-avec-drupal-8-seconde-partie
 
+How to encode a URL with JavaScript
+https://flaviocopes.com/how-to-encode-url/
+
 Too Much Accessibility
 https://css-tricks.com/too-much-accessibility/
 
 Bridging the Gap Between CSS and JavaScript: CSS-in-JS
 https://css-tricks.com/bridging-the-gap-between-css-and-javascript-css-in-js/
 
+How to replace a DOM element
+https://flaviocopes.com/how-to-replace-dom-element/
+
 Nesting Components in Figma
 https://css-tricks.com/nesting-components-in-figma/
+
+How to merge two objects in JavaScript
+https://flaviocopes.com/how-to-merge-objects-javascript/
 
 DevTools for Designers
 https://css-tricks.com/devtools-for-designers/
@@ -64,8 +196,20 @@ https://css-tricks.com/devtools-for-designers/
 An Introduction to CSS Shapes
 http://feedproxy.google.com/~r/tympanus/~3/UM90tZ2LA2E/
 
+Introduction to Gatsby
+https://flaviocopes.com/gatsby/
+
 Soyez branchés avec Git grace à l'outil LearnGitBranching
 http://feedproxy.google.com/~r/blogduwebdesign/articles/~3/ULn93kvyLkE/2767
+
+What is the JAMstack?
+https://flaviocopes.com/jamstack/
+
+Use the Chrome DevTools to debug a Node.js app
+https://flaviocopes.com/node-debug-devtools/
+
+How to use MongoDB with Node.js
+https://flaviocopes.com/node-mongodb/
 
 Les frameworks JavaScript en 2018
 https://www.alsacreations.com/actu/lire/1778-frameworks-javascript-angular-react-vue.html
@@ -85,8 +229,17 @@ https://css-tricks.com/why-cant-we-use-functional-css-and-regular-css-at-the-sam
 NGINX – Un générateur de fichier de configuration
 https://korben.info/nginx-un-generateur-de-fichier-de-configuration.html
 
+Should you use or learn jQuery in 2018?
+https://flaviocopes.com/jquery/
+
+WebRTC, the Real Time Web API
+https://flaviocopes.com/webrtc/
+
 GraphQL is Everywhere!
 https://css-tricks.com/graphql-is-everywhere/
+
+How to hide the address bar in Chrome
+https://flaviocopes.com/hide-address-bar-chrome/
 
 CSS Animations and Transitions in Email
 https://css-tricks.com/css-animations-and-transitions-in-email/
@@ -97,8 +250,14 @@ http://feedproxy.google.com/~r/blogduwebdesign/articles/~3/VR7rBjQxTWQ/2761
 Installer Drupal depuis la configuration
 https://happyculture.coop/blog/installer-drupal-depuis-la-configuration
 
+The JSONP Guide
+https://flaviocopes.com/jsonp/
+
 Dark modes with CSS
 https://css-tricks.com/dark-modes-with-css/
+
+Introduction to JSON
+https://flaviocopes.com/json/
 
 CSS and Network Performance
 https://csswizardry.com/2018/11/css-and-network-performance/
@@ -114,6 +273,15 @@ https://css-tricks.com/a-bunch-of-options-for-looping-over-queryselectorall-node
 
 Why Browsers Download Stylesheets with Non-Matching Media Queries
 https://blog.tomayac.com/2018/11/08/why-browsers-download-stylesheets-with-non-matching-media-queries-180513
+
+An introduction to WebAssembly
+https://flaviocopes.com/webassembly/
+
+What is a Single Page Application?
+https://flaviocopes.com/single-page-application/
+
+Should you use Vue or React?
+https://flaviocopes.com/vue-vs-react/
 
 23 nouvelles typographies gratuites pour cet automne 2018
 http://feedproxy.google.com/~r/blogduwebdesign/articles/~3/rIhizH68vQo/2757
@@ -139,8 +307,14 @@ https://korben.info/une-faille-0day-dans-virtualbox-comment-vous-proteger.html
 Une alternative à Photoshop utilisable gratuitement dans votre navigateur
 https://korben.info/une-alternative-a-photoshop-utilisable-gratuitement-dans-votre-navigateur.html
 
+How to get the index of an iteration in a for-of loop in JavaScript
+https://flaviocopes.com/how-to-get-index-in-for-of-loop/
+
 Fun Tip: Use calc() to Change the Height of a Hero Component
 https://css-tricks.com/fun-tip-use-calc-to-change-the-height-of-a-hero-component/
+
+HTML Canvas API Tutorial
+https://flaviocopes.com/canvas/
 
 What’s New In CSS?
 https://www.smashingmagazine.com/2018/10/tpac-css-working-group-new/
